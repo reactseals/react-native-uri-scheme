@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNUriScheme"
-  s.version      = "1.0.3"
+  s.version      = "1.0.10"
   s.summary      = "RNUriScheme"
   s.description  = <<-DESC
                   RNUriScheme

@@ -7,29 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RNUriScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNUriScheme.m */; };
+		DA5891DC1BA9A9FC002B4DB2 /* RNUriScheme.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA5891DB1BA9A9FC002B4DB2 /* RNUriScheme.h */; };
+		DA5891DE1BA9A9FC002B4DB2 /* RNUriScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5891DD1BA9A9FC002B4DB2 /* RNUriScheme.m */; };
+		E72EC14A1F7ABC0E0001BC90 /* RNUriScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5891DD1BA9A9FC002B4DB2 /* RNUriScheme.m */; };
+		E72EC14C1F7ABC1D0001BC90 /* RNUriScheme.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA5891DB1BA9A9FC002B4DB2 /* RNUriScheme.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+		DA5891D61BA9A9FC002B4DB2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				BF770A3D1F6A3EEE007E5F09 /* RNUriSchemeUID.h in CopyFiles */,
+				DA5891DC1BA9A9FC002B4DB2 /* RNUriScheme.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72EC13E1F7ABB5A0001BC90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E72EC14C1F7ABC1D0001BC90 /* RNUriScheme.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libRNUriScheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNUriScheme.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNUriScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUriScheme.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNUriScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUriScheme.m; sourceTree = "<group>"; };
+		DA5891D81BA9A9FC002B4DB2 /* libRNUriScheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNUriScheme.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5891DB1BA9A9FC002B4DB2 /* RNUriScheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNUriScheme.h; sourceTree = "<group>"; };
+		DA5891DD1BA9A9FC002B4DB2 /* RNUriScheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNUriScheme.m; sourceTree = "<group>"; };
+		E72EC1401F7ABB5A0001BC90 /* libRNUriScheme-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRNUriScheme-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58B511D81A9E6C8500147676 /* Frameworks */ = {
+		DA5891D51BA9A9FC002B4DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72EC13D1F7ABB5A0001BC90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,58 +62,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		134814211AA4EA7D00B7C361 /* Products */ = {
+		DA5891CF1BA9A9FC002B4DB2 = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libRNUriScheme.a */,
+				DA5891DA1BA9A9FC002B4DB2 /* RNUriScheme */,
+				DA5891D91BA9A9FC002B4DB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5891D91BA9A9FC002B4DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5891D81BA9A9FC002B4DB2 /* libRNUriScheme.a */,
+				E72EC1401F7ABB5A0001BC90 /* libRNUriScheme-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58B511D21A9E6C8500147676 = {
+		DA5891DA1BA9A9FC002B4DB2 /* RNUriScheme */ = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNUriScheme.h */,
-				B3E7B5891CC2AC0600A0062D /* RNUriScheme.m */,
-				134814211AA4EA7D00B7C361 /* Products */,
+				DA5891DB1BA9A9FC002B4DB2 /* RNUriScheme.h */,
+				DA5891DD1BA9A9FC002B4DB2 /* RNUriScheme.m */,
 			);
+			path = RNUriScheme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* RNUriScheme */ = {
+		DA5891D71BA9A9FC002B4DB2 /* RNUriScheme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNUriScheme" */;
+			buildConfigurationList = DA5891E11BA9A9FC002B4DB2 /* Build configuration list for PBXNativeTarget "RNUriScheme" */;
 			buildPhases = (
-				58B511D71A9E6C8500147676 /* Sources */,
-				58B511D81A9E6C8500147676 /* Frameworks */,
-				58B511D91A9E6C8500147676 /* CopyFiles */,
+				DA5891D41BA9A9FC002B4DB2 /* Sources */,
+				DA5891D51BA9A9FC002B4DB2 /* Frameworks */,
+				DA5891D61BA9A9FC002B4DB2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RNUriScheme;
-			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNUriScheme.a */;
+			productName = RNUriScheme;
+			productReference = DA5891D81BA9A9FC002B4DB2 /* libRNUriScheme.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E72EC13F1F7ABB5A0001BC90 /* RNUriScheme-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72EC1481F7ABB5A0001BC90 /* Build configuration list for PBXNativeTarget "RNUriScheme-tvOS" */;
+			buildPhases = (
+				E72EC13C1F7ABB5A0001BC90 /* Sources */,
+				E72EC13D1F7ABB5A0001BC90 /* Frameworks */,
+				E72EC13E1F7ABB5A0001BC90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNUriScheme-tvOS";
+			productName = "RNUriScheme-tvOS";
+			productReference = E72EC1401F7ABB5A0001BC90 /* libRNUriScheme-tvOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		58B511D31A9E6C8500147676 /* Project object */ = {
+		DA5891D01BA9A9FC002B4DB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Learnium;
 				TargetAttributes = {
-					58B511DA1A9E6C8500147676 = {
-						CreatedOnToolsVersion = 6.1.1;
+					DA5891D71BA9A9FC002B4DB2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E72EC13F1F7ABB5A0001BC90 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNUriScheme" */;
+			buildConfigurationList = DA5891D31BA9A9FC002B4DB2 /* Build configuration list for PBXProject "RNUriScheme" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -98,29 +151,38 @@
 				English,
 				en,
 			);
-			mainGroup = 58B511D21A9E6C8500147676;
-			productRefGroup = 58B511D21A9E6C8500147676;
+			mainGroup = DA5891CF1BA9A9FC002B4DB2;
+			productRefGroup = DA5891D91BA9A9FC002B4DB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNUriScheme */,
+				DA5891D71BA9A9FC002B4DB2 /* RNUriScheme */,
+				E72EC13F1F7ABB5A0001BC90 /* RNUriScheme-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		58B511D71A9E6C8500147676 /* Sources */ = {
+		DA5891D41BA9A9FC002B4DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNUriScheme.m in Sources */,
+				DA5891DE1BA9A9FC002B4DB2 /* RNUriScheme.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72EC13C1F7ABB5A0001BC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72EC14A1F7ABC0E0001BC90 /* RNUriScheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		58B511ED1A9E6C8500147676 /* Debug */ = {
+		DA5891DF1BA9A9FC002B4DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -133,13 +195,12 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -150,13 +211,20 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+                                HEADER_SEARCH_PATHS = (
+                                        "$(inherited)",
+                                        "$(BUILT_PRODUCTS_DIR)/usr/local/include",
+                                        "$(SRCROOT)/../../React/**",
+                                        "$(SRCROOT)/node_modules/react-native/React/**",
+                                        "$(SRCROOT)/../react-native/React/**",
+                                        "$(SRCROOT)/../../../node_modules/react-native/React/**",
+                                );
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -164,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		58B511EE1A9E6C8500147676 /* Release */ = {
+		DA5891E01BA9A9FC002B4DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,13 +245,12 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -194,6 +261,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+                                HEADER_SEARCH_PATHS = (
+                                        "$(inherited)",
+                                        "$(BUILT_PRODUCTS_DIR)/usr/local/include",
+                                        "$(SRCROOT)/../../React/**",
+                                        "$(SRCROOT)/node_modules/react-native/React/**",
+                                        "$(SRCROOT)/../react-native/React/**",
+                                        "$(SRCROOT)/../../../node_modules/react-native/React/**",
+                                );
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -201,60 +276,143 @@
 			};
 			name = Release;
 		};
-		58B511F01A9E6C8500147676 /* Debug */ = {
+		DA5891E21BA9A9FC002B4DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNUriScheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		58B511F11A9E6C8500147676 /* Release */ = {
+		DA5891E31BA9A9FC002B4DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNUriScheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E72EC1461F7ABB5A0001BC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E72EC1471F7ABB5A0001BC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNUriScheme" */ = {
+		DA5891D31BA9A9FC002B4DB2 /* Build configuration list for PBXProject "RNUriScheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58B511ED1A9E6C8500147676 /* Debug */,
-				58B511EE1A9E6C8500147676 /* Release */,
+				DA5891DF1BA9A9FC002B4DB2 /* Debug */,
+				DA5891E01BA9A9FC002B4DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNUriScheme" */ = {
+		DA5891E11BA9A9FC002B4DB2 /* Build configuration list for PBXNativeTarget "RNUriScheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58B511F01A9E6C8500147676 /* Debug */,
-				58B511F11A9E6C8500147676 /* Release */,
+				DA5891E21BA9A9FC002B4DB2 /* Debug */,
+				DA5891E31BA9A9FC002B4DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72EC1481F7ABB5A0001BC90 /* Build configuration list for PBXNativeTarget "RNUriScheme-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72EC1461F7ABB5A0001BC90 /* Debug */,
+				E72EC1471F7ABB5A0001BC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+	rootObject = DA5891D01BA9A9FC002B4DB2 /* Project object */;
 }
