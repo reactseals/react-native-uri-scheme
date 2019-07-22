@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNUriScheme"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "RNUriScheme"
   s.description  = <<-DESC
                   RNUriScheme
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
    s.ios.deployment_target = '9.0'
    s.tvos.deployment_target = '10.0'
   s.source       = { :git => "https://github.com/reactseals/react-native-uri-scheme", :tag => "master" }
-  s.source_files  = "ios/RNUriScheme/**/*.{h,m}"
+  s.source_files  = "ios/*.{h,m}"
   s.requires_arc = true
 
 
