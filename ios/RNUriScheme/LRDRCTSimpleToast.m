@@ -1,12 +1,13 @@
-
-#import "RNUriScheme.h"
+#import "RCTBridgeModule.h"
 
 @implementation RNUriScheme
 
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
+@interface RNUriScheme : NSObject <RCTBridgeModule>
+@end
+
+@implementation RNUriScheme {
 }
+
 RCT_EXPORT_MODULE()
 
 - (NSString*) uriScheme
