@@ -1,7 +1,5 @@
 #import "RCTBridgeModule.h"
 
-@implementation RNUriScheme
-
 @interface RNUriScheme : NSObject <RCTBridgeModule>
 @end
 
