@@ -1,7 +1,11 @@
 
+require 'json'
+
+package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
+
 Pod::Spec.new do |s|
   s.name         = "RNUriScheme"
-  s.version      = "1.0.16"
+  s.version      = package['version']
   s.summary      = "RNUriScheme"
   s.description  = <<-DESC
                   RNUriScheme

@@ -18,14 +18,22 @@ RCT_EXPORT_MODULE()
             if(urlType[@"CFBundleURLName"] && [urlType[@"CFBundleURLName"] isEqualToString:scheme])
             {
                 NSArray *urlSchemes = urlType[@"CFBundleURLSchemes"];
-                for(NSString *urlScheme in urlSchemes)
+                for(NSString *urlScheme in urlSchemes) {
                     return urlScheme;
+                }
             }
 
         }
     }
 
     return @"";
+}
+
+- (NSDictionary *)constantsToExport
+{
+    return @{
+             @"uriScheme": self.uriScheme,
+            };
 }
 
 @end
