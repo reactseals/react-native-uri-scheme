@@ -1,5 +1,4 @@
-
-package com.rs;
+package com.rs.RNUriScheme;
 
 import java.util.Arrays;
 import java.util.Collections;

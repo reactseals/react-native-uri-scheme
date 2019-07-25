@@ -1,4 +1,4 @@
-package com.rs;
+package com.rs.RNUriScheme;
 
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
